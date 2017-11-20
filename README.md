@@ -9,7 +9,6 @@ Contains missing assets from stock ET mapping installation. Included:
 ## Installation
 
 - Download the repository as a ZIP and extract to "etmain" folder of your mapping installation.
-  - If you prefer unedited stock shaders to the ones on this pack, don't overwrite the ones on your installation, and only add "models_fixed_mapobjects.shader" and  "models_mapobjects_extra.shader" for the models to work.
 - Add "models_fixed_mapobjects", "models_mapobjects_extra" and "blitz_sd_mm" to your shaderlist.txt.
 
 ## Information
