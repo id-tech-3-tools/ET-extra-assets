@@ -9,7 +9,7 @@ Contains missing assets from stock ET mapping installation. Included:
 ## Installation
 
 - Download the repository as a ZIP and extract to "etmain" folder of your mapping installation.
-- Add "models_fixed_mapobjects", "models_mapobjects_extra" and "blitz_sd_mm" to your shaderlist.txt.
+- Add "models_fixed_mapobjects" and "blitz_sd_mm" to your shaderlist.txt.
 
 ## Information
 
@@ -17,7 +17,7 @@ Contains missing assets from stock ET mapping installation. Included:
 
 Original ET maps used a lot of models from RTCW. Since `misc_model` entities are baked into BSP when compiling, they don't need to be included in PK3 files. This pack contains _every_ missing MD3/ASE model used in the 6 original maps.
 
-Some of these models have shader dependencies to `models_fixed_mapobjects.shader` and `models_mapobjects_extra.shader` provided in this pack. Use them and remember to add `models_fixed_mapobjects` and `models_mapobjects_extra` to your `shaderlist.txt`! These shaders should be included along with your map if you use models that depend on them.
+Some of these models have shader dependencies to `models_fixed_mapobjects.shader` provided in this pack. Use them and remember to add `models_fixed_mapobjects` to your `shaderlist.txt`! These shaders should be included along with your map if you use models that depend on them.
 
 Also included are mapmodel (`misc_model`) versions of various blitz trucks in the game. There's an example map with prefabs of these trucks with correct clippings added. Shader for these trucks is also included, make sure you add that to `shaderlist.txt`.
 
