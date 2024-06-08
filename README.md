@@ -19,6 +19,8 @@ Original ET maps used a lot of models from RTCW. Since `misc_model` entities are
 
 Some of these models have shader dependencies to `models_fixed_mapobjects.shader` provided in this pack. Use them and remember to add `models_fixed_mapobjects` and `blitz_sd_mm` to your `shaderlist.txt`! These shaders should be included along with your map if you use models that depend on them.
 
+The rock models used in Battery (`models/mapobjects/battery_rocks/rocks1/2/3.ase`) have been replaced with models compatible with NetRadiant-Custom assimp model loaded (should be backwards compatible with GtkRadiant too).
+
 Also included are mapmodel (`misc_model`) versions of various blitz trucks in the game. There's an example map with prefabs of these trucks with correct clippings added. Shader for these trucks is also included, make sure you add that to `shaderlist.txt`.
 
 Another addition is plain stock trees. These are useful when you want to remove leaves from the trees used in original maps. No additional shader for these is needed.
