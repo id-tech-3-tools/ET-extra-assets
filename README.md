@@ -8,8 +8,8 @@ Contains missing assets from stock ET mapping installation. Included:
 
 ## Installation
 
-- Download the repository as a ZIP and extract to "etmain" folder of your mapping installation.
-- Add "models_fixed_mapobjects" and "blitz_sd_mm" to your shaderlist.txt.
+- Download the repository as a ZIP and extract to `etmain` folder of your mapping installation.
+- Add `blitz_sd_mm` to your shaderlist.txt.
 
 ## Information
 
